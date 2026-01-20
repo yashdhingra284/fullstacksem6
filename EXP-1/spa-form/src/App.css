@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  font-family: Arial;
+}
+
+.form-container {
+  background: white;
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2ebf91;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+}
