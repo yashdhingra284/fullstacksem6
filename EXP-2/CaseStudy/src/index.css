@@ -1,0 +1,80 @@
+/* ===== GLOBAL RESET & BACKGROUND ===== */
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== APP LEVEL VIEWPORT MARGIN ===== */
+.app-wrapper {
+  padding: 24px 40px;   /* margin for whole viewport */
+}
+
+/* ===== SECTION SPACING ===== */
+.section {
+  padding: 60px 40px;
+}
+
+/* ===== MATERIAL UI CARD STYLING ===== */
+.MuiCard-root {
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== REMOVE MUI BUTTON AUTO-FOCUS LOOK ===== */
+button:focus,
+button:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* ===== NAVBAR STYLING ===== */
+.app-navbar {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.navbar-brand-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1976d2;
+}
+
+.nav-link-custom {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: #1976d2;
+}
+
+.nav-actions button {
+  min-width: 100px;
+}
+/* Force navbar items in one line */
+.navbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: nowrap;
+}
+
+.nav-center {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
