@@ -25,7 +25,7 @@ export default function MediaCard() {
         <Typography gutterBottom variant="h5" component="div">
           Which is this Animal?
         </Typography>
-    <TextField id="outlined-basic" label="Answer" variant="outlined" />   
+    <TextField id="outlined-basic" label="Answerk" variant="outlined" />   
       </CardContent>
       <CardActions>
         
