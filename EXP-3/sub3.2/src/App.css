@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #222324;   /* 🔥 dark blue */
+  color: #f1f5f9;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #d7620e;
+  padding: 18px 40px;
+  border-bottom: 1px solid #1d1e1f;
+  display:flex;
+  justify-content:space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar a {
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #222324;
+}
+
+/* PAGE */
+
+.page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 25px;
+}
+
+.page h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* CARDS */
+
+.card {
+  background: #d7620ed5;
+  padding: 28px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  border: 1px solid #1f2937;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  color: #222324;
+}
+
+.card ul {
+  padding-left: 22px;
+  line-height: 1.8;
+}
+
+.card p {
+  margin-top: 5px;
+  line-height: 1.7;
+}
+
+/* PROFILE */
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.profile-pic {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 3px solid #222324; */
+}
+
+.details h2 {
+  margin-bottom: 8px;
+}
+
+.details p {
+  margin: 6px 0;
+  color: #cbd5f5;
+}
