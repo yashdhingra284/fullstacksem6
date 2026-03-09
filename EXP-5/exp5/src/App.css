@@ -1,0 +1,95 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.app-container {
+  width: 700px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 25px;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+  text-decoration: none;
+  margin: 0 8px;
+  padding: 10px 24px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-btn:hover {
+  background: #4facfe;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Active link */
+.nav-btn.active {
+  background: #00c6ff;
+  color: white;
+}
+
+/* Card layout */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 35px;
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Card hover */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Loader container */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Spinner */
+.spinner {
+  width: 45px;
+  height: 45px;
+  border: 5px solid #e0e0e0;
+  border-top: 5px solid #00c6ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 12px;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Loading text */
+.loading {
+  font-size: 16px;
+  color: #00aaff;
+  font-weight: 500;
+}

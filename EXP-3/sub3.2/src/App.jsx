@@ -52,7 +52,7 @@ const Profile = () => (
 
     <div className="card profile-card">
       <img
-        src="yash.jpg"   /* 👈 your image from public folder */
+        src="yash.jpg"   
         alt="profile"
         className="profile-pic"
       />
